@@ -26,7 +26,7 @@ api.get('/envStatus', function () {
 });
 
 
-api.get('/senEnv', function () {
+api.post('/senEnv', function () {
 	var DocusignEnv = require('./service/docusignAPICall');
 	var finalResponse = DocusignEnv.sendEnv();
 	 return finalResponse.then(function(res){
