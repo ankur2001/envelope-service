@@ -1,0 +1,19 @@
+{
+  "name": "envelope service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "claudia-api-builder": "^4.1.2",
+    "connect": "^3.7.0",
+    "express": "^1.0.8",
+    "js-yaml": "^3.13.1",
+    "moment": "^2.24.0",
+    "request": "^2.88.0"
+  }
+}
