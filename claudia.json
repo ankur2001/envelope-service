@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "envelope-service-executor",
+    "name": "envelope-service",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "cvkf6swtuf",
+    "module": "src/app"
+  }
+}

@@ -1,19 +1,29 @@
 {
-  "name": "envelope service",
+  "name": "envelope-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# envelope-service\"",
   "main": "src/app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "claudia-api-builder": "^4.1.2",
     "connect": "^3.7.0",
+    "docusign-esign": "^5.1.0",
     "express": "^1.0.8",
     "js-yaml": "^3.13.1",
     "moment": "^2.24.0",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankur2001/envelope-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankur2001/envelope-service/issues"
+  },
+  "homepage": "https://github.com/ankur2001/envelope-service#readme"
 }
